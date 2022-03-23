@@ -1,0 +1,12 @@
+name: avaxSummit
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+      - jupyterlab
+      - Historic-Crypto
